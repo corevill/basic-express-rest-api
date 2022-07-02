@@ -17,25 +17,35 @@ API Endpoints
 Clonamos el repositorio
 
 ```bash
-https://github.com/zagaris/express-api.git
-cd express-api
+git clone https://github.com/corevill/basic-express-rest-api.git
 ```
-Creamos el fichero.env
+
+Entramos dentro de la carpeta del proyecto que hemos clonado
+
 ```bash
-    echo "" > .env
+cd basic-express-rest-api
+```
+
+Creamos el fichero.env
+
+```bash
+echo "" > .env
 ```
 
 Abrimos el fichero que hemos creado e incluimos en el la configuración de nuestra aplicación
-```bash
+
+```
 DB_URL = localhost/my-employees
 TEST_DB_URL = localhost/test-my-employees
 PORT = 5000
 ```
+
 Instalamos las dependencias
 
 ```bash
 npm install
 ```
+
 Arrancamos nuestro servidor
 
 ```bash
