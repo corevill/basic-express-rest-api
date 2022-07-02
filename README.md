@@ -20,25 +20,31 @@ Clonamos el repositorio
 https://github.com/zagaris/express-api.git
 cd express-api
 ```
-Create the .env file.
+Creamos el fichero.env
+```bash
+    echo "" > .env
+```
 
+Abrimos el fichero que hemos creado e incluimos en el la configuración de nuestra aplicación
 ```bash
 DB_URL = localhost/my-employees
 TEST_DB_URL = localhost/test-my-employees
 PORT = 5000
 ```
-Install the dependencies.
+Instalamos las dependencias
 
 ```bash
 npm install
 ```
-To start the express server, run the following.
+Arramcamos nuestro servidor
 
 ```bash
 npm run dev
 ``` 
 
 ## Instalar MongoBD Community Server 
+
+Para que este ejemplo funcione correctamente debemos configurar una BD de MongoDB donde tengamos employee creado.
 
 - Descargar el instalador de la página oficial e instalamos MongoDB de forma completa y nos quedamos con la ruta de instalación
 
