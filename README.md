@@ -36,7 +36,7 @@ Instalamos las dependencias
 ```bash
 npm install
 ```
-Arramcamos nuestro servidor
+Arrancamos nuestro servidor
 
 ```bash
 npm run dev
